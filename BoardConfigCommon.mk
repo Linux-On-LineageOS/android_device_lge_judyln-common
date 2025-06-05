@@ -39,3 +39,4 @@ DEVICE_MANIFEST_FILE += device/lge/judyln-common/manifest.xml
 
 # inherit from the proprietary version
 include vendor/lge/judyln-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
